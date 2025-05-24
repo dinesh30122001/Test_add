@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<title>Hello, world!</title>
+</head>
+
+<body>
+  <!-------------nav---start------>
+ <nav class="navbar navbar-expand-lg navbar-success bg-light">
+    <a class="navbar-brand rounded" height="40" width="76" href="#">
+      <img class="rounded" src="./img/logo.jpg" height="40" width="76" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#abss">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#courses">Courses</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Career</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <a href="#formss"><button class="btn btn-outline-success" type="submit">Enquiry</button></a>
+            </form>
+    </div>
+
+  </nav>
+  <!-------------nav----end----->
+  <!---------------img------------start-->
+  <div classs="container-fluid ">
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active w-100 h-75">
+          <img src="./img/clg.jpg" style="width:100vw ;height: 90vh;" class="d-block img-fluid" alt="dfgl">
+        </div>
+        <div class="carousel-item vh-75">
+          <img src="./img/2.jpg" style="width:100vw ;height: 90vh;" class="d-block img-thumbnail" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/3.jpg" style="width:100vw ;height: 90vh;" class="d-block img-thumbnail" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/4.jpg" style="width:100vw ;height: 90vh;" class="d-block img-thumbnail" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/5.jpg" style="width:100vw ;height: 90vh;" `class="d-block img-thumbnail" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/6.jpg" style="width:100vw ;height: 90vh;" `class="d-block img-thumbnail" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+   <!--------------------------img-----------------------------end-->
+    <section id="courses" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center">Our Courses</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card p-3">
+              <h5>Computer Science</h5>
+              <p>Learn programming, AI, and software development.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card p-3">
+              <h5>Business Management</h5>
+              <p>Develop leadership and strategic planning skills.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card p-3">
+              <h5>Engineering</h5>
+              <p>Innovate and create the future with hands-on training.</p>
+            </div>         
+          </div>
+        </div>
+        <div class="row">
+         <div class="col-md-4">
+          <div class="card p-3">
+            <h5>Engineering</h5>
+            <p>Innovate and create the future with hands-on training.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card p-3">
+            <h5>Engineering</h5>
+            <p>Innovate and create the future with hands-on training.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card p-3">
+            <h5>Engineering</h5>
+            <p>Innovate and create the future with hands-on training.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+     <!-- Enquriy form Card  -->
+    <!-- Enquriy Card -->
+    <div id="formss" class="card container w-25  mt-5 position-absolute top-50 start-50 translate-middle bg-warning p-3 d-none">
+      <div class="card-body">
+        <h5 class="card-title text-center mb-4">Enquriy Form</h5>
+        <!-- Enquriy Form -->
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter name" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter email" required>
+          </div>
+
+          <div class="mb-3">
+            <label for="number" class="form-label">Phone Number</label>
+            <input type="number" class="form-control" id="password" placeholder="Enter phone number" required>
+          </div>
+          <div class="mb-3">
+            <label for="Courses" class="form-label">Select Your Course</label>
+            <select class="w-100" name=" Select Course" id="cars">
+              <option value="">BA in Journalism and Mass Communication</option>
+              <option value="">BA in Geography</option>
+              <option value="">BA in Anthropology</option>
+              <option value="">BA in Philosophy</option>
+              <option value="">BA in Psychology</option>
+              <option value="">BA in Sociology</option>
+              <option value="">BA in Economics</option>
+              <option value="">BA in Political Science</option>
+              <option value="">BA in History</option>
+              <option value="">BA in English Literature</option>
+            </select>
+          </div>
+
+          <button type="submit" class="btn  mx-2 btn-outline-success w-100" w-100">Send Enquriy </button>
+        </form>
+      </div>
+    </div>
+    <!-- Rigister form Card end  -->
+    <div>
+      <h2 class="text-center" id="abbs">About Us</h2>
+      <p>For more than 100 years, Victoria University (VU) has offered accessible education to students in Melbourne’s west and beyond.
+
+        VU is one of only six universities in Australia to offer courses in both TAFE and higher education. From certificates to diplomas, degrees and postgraduate courses, you can begin your studies at any point and progress between courses to achieve your goals, regardless of your starting point.
+        
+        Our flexible approach to learning and teaching supports our strategic plan. We aim to continue creating positive outcomes for education, industry and our community into the future.</div>
+  </p>
+    <section id="contact" class="py-5">
+      <div class="container text-center">
+        <h2>Contact Us</h2>
+        <p>Email: info@college.com | Phone: (123) 456-7890</p>
+      </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+      <p>&copy; 2025 Victoria University. All rights reserved.</p>
+    </footer>
+
+
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js">
+  </script>
+</body>
+
+</html>
